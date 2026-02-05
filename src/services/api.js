@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'petty-frontend-gnf9cnc7egg4gqa2.japanwest-01.azurewebsites.net/api',
+  baseURL: 'petty-backend-h8ahgravcyd8a4cd.japaneast-01.azurewebsites.net/api',
   // baseURL: 'http://127.0.0.1:8000/api', // Local API
   headers: {
     'Content-Type': 'application/json',
@@ -68,3 +68,4 @@ export const getApiConfig = () => {
     baseURL
   };
 };
+
